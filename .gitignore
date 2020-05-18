@@ -1,0 +1,6 @@
+.idea/
+target/
+.allure/
+allure-results/
+dasreda_test.iml
+dasreda.iml
