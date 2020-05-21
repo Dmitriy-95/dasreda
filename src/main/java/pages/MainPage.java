@@ -14,10 +14,10 @@ public class MainPage extends BasePage {
         super(driver);
     }
 
-    public LoginPage logOut(){
-        logoutButton.isEnabled();
-        logoutButton.click();
+    public LoginPage logOut() {
+        retryingFindClick(logoutButton);
         return new LoginPage(driver);
     }
+
 
 }
